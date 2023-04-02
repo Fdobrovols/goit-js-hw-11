@@ -5,23 +5,27 @@
   "homepage": "https://Fdobrovols.github.io/goit-js-hw-11",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Fdobrovols/goit-js-hw-11.git"
   },
   "keywords": [],
-  "author": "Fedord Dobrvolskiy <Chubays30@gmail.com>",
+  "author": "Fedor Dobrovolskiy <chubays30@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Fdobrovols/goit-js-hw-11/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "axios": "^1.3.4",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6",
+    "simplelightbox": "^2.12.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"

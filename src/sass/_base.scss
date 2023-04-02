@@ -1,0 +1,22 @@
+html 
+{
+  font-size: 10px;
+}
+
+body 
+{
+  padding-bottom: 2rem;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(85, 85, 85);
+}
+
+html.no-jump 
+{
+  scrollbar-gutter: stable;
+}
+
+img 
+{
+  max-width: 100%;
+}
